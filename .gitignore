@@ -1,0 +1,11 @@
+# Pliki logów
+*.log
+console.log
+
+# Pliki kompilacji i symulacji (ModelSim/Quartus itp.)
+*.wsp
+*.sth
+*.cmd
+*.asdb
+*.mgf
+*.lib
