@@ -1,0 +1,516 @@
+acom -reorder -O3 -e 100 -work UART -2002  $dsn/src/UART_util.vhd $dsn/src/UART_RX.asf $dsn/src/UART_TX.asf $dsn/src/Test_UART.bde $dsn/src/TestBench/test_uart_TB.vhd
+# Generating "C:\My_Designs\GP\UART\UART\compile\UART_RX.vhd" from "C:\My_Designs\GP\UART\UART\src\UART_RX.asf"
+# Loading State Diagram data...
+# Synthesis attributes will be generated for "Xilinx XST"
+# Generating interface file...
+# HDL code generation successful. 0 error(s), 0 warning(s)
+# Generating "C:\My_Designs\GP\UART\UART\compile\UART_TX.vhd" from "C:\My_Designs\GP\UART\UART\src\UART_TX.asf"
+# Loading State Diagram data...
+# Synthesis attributes will be generated for "Xilinx XST"
+# Generating interface file...
+# HDL code generation successful. 0 error(s), 0 warning(s)
+# DRC: Checking file "C:/My_Designs/GP/UART/UART/src/Test_UART.bde".
+# DRC: Warning: Test_UART.bde - 0 error(s), 2 warning(s)
+# DRC: DRC process completed in 59 millisecond(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating C:/My_Designs/GP/UART/UART/compile/Test_UART.vhd from C:/My_Designs/GP/UART/UART/src/Test_UART.bde...
+# Generation successful
+# Compile Package "UART_util"
+# Compile Package Body "UART_util"
+# Compile Entity "UART_RX"
+# Compile Architecture "UART_RX" of Entity "UART_RX"
+# Compile Entity "UART_TX"
+# Compile Architecture "UART_TX" of Entity "UART_TX"
+# Compile Entity "Test_UART"
+# Compile Architecture "Test_UART" of Entity "Test_UART"
+# Compile Entity "test_uart_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "test_uart_tb"
+# Compile Configuration "TESTBENCH_FOR_test_uart"
+# Top-level unit(s) detected:
+# Configuration => TESTBENCH_FOR_test_uart
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+testbench_for_test_uart testbench_for_test_uart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6483 kB (elbread=427 elab2=5911 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\GP\UART\UART\src\wave.asdb
+#  17:06, poniedzia쿮k, 27 pa웓ziernika 2025
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench_for_test_uart testbench_for_test_uart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6483 kB (elbread=427 elab2=5911 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\GP\UART\UART\src\wave.asdb
+#  17:08, poniedzia쿮k, 27 pa웓ziernika 2025
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench_for_test_uart testbench_for_test_uart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work UART -2002  $dsn/src/UART_util.vhd $dsn/src/TestBench/test_uart_TB.vhd
+# Compile Package "UART_util"
+# Compile Package Body "UART_util"
+# Compile Entity "test_uart_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "test_uart_tb"
+# Compile Configuration "TESTBENCH_FOR_test_uart"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6488 kB (elbread=427 elab2=5916 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\GP\UART\UART\src\wave.asdb
+#  17:38, poniedzia쿮k, 27 pa웓ziernika 2025
+#  Simulation has been initialized
+run
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 10124999980 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 10124999980 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 10124999980 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 10124999980 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 47791666640 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 47791666640 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 49965277740 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 49965277740 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+asim -O5 +access +r +m+testbench_for_test_uart testbench_for_test_uart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6488 kB (elbread=427 elab2=5916 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\GP\UART\UART\src\wave.asdb
+#  17:43, poniedzia쿮k, 27 pa웓ziernika 2025
+#  Simulation has been initialized
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench_for_test_uart testbench_for_test_uart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6488 kB (elbread=427 elab2=5916 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\GP\UART\UART\src\wave.asdb
+#  17:45, poniedzia쿮k, 27 pa웓ziernika 2025
+#  Simulation has been initialized
+run
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 10124999980 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 10124999980 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 10124999980 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 10124999980 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 47791666640 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 47791666640 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 49965277740 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 49965277740 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+SetActiveLib -work
+comp -include "$dsn\src\UART_util.vhd" 
+# Compile Package "UART_util"
+# Compile Package Body "UART_util"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+comp -include "$dsn\src\UART_TX.asf" 
+# Compile Entity "UART_TX"
+# Compile Architecture "UART_TX" of Entity "UART_TX"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\UART_RX.asf" 
+# Compile Entity "UART_RX"
+# Compile Architecture "UART_RX" of Entity "UART_RX"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\Test_UART.bde" 
+# Compile Entity "Test_UART"
+# Compile Architecture "Test_UART" of Entity "Test_UART"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\TestBench\test_uart_TB.vhd" 
+# Compile Entity "test_uart_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "test_uart_tb"
+# Compile Configuration "TESTBENCH_FOR_test_uart"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim TESTBENCH_FOR_test_uart 
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6488 kB (elbread=427 elab2=5916 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\GP\UART\UART\src\wave.asdb
+#  17:46, poniedzia쿮k, 27 pa웓ziernika 2025
+#  Simulation has been initialized
+wave 
+wave -noreg UART_CLK
+wave -noreg UART_RESET
+wave -noreg BAUD_SEL
+wave -noreg UART_RxD
+wave -noreg /test_uart_tb/UUT/UART_DATA
+wave -noreg /test_uart_tb/UUT/DATA_VALID
+wave -noreg UART_TxD
+# 
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\test_uart_TB_tim_cfg.vhd" 
+# # asim TIMING_FOR_test_uart  
+run
+# VSIM: 7 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/GP/UART/UART/src/wave.asdb'.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 10124999980 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 10124999980 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 10124999980 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 10124999980 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 47791666640 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 47791666640 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 49965277740 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 49965277740 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+acom -O3 -e 100 -work UART -2002  $dsn/src/UART_util.vhd $dsn/src/TestBench/test_uart_TB.vhd
+# Compile Package "UART_util"
+# Compile Package Body "UART_util"
+# Error: COMP96_0015: UART_util.vhd : (110, 1): ';' expected.
+# Compile Entity "test_uart_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "test_uart_tb"
+# Compile Configuration "TESTBENCH_FOR_test_uart"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Fatal Error: ELAB2_0009 UART_util.vhd (47): Subprogram "UART_send_byte" has no body; package body may be missing.
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# VSIM: Error: Simulation initialization failed.
+SetActiveLib -work
+comp -include "$dsn\src\UART_util.vhd" 
+# Compile Package "UART_util"
+# Compile Package Body "UART_util"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\UART_TX.asf" 
+# Compile Entity "UART_TX"
+# Compile Architecture "UART_TX" of Entity "UART_TX"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\UART_RX.asf" 
+# Compile Entity "UART_RX"
+# Compile Architecture "UART_RX" of Entity "UART_RX"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\Test_UART.bde" 
+# Compile Entity "Test_UART"
+# Compile Architecture "Test_UART" of Entity "Test_UART"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+comp -include "$dsn\src\TestBench\test_uart_TB.vhd" 
+# Compile Entity "test_uart_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "test_uart_tb"
+# Compile Configuration "TESTBENCH_FOR_test_uart"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+asim TESTBENCH_FOR_test_uart 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6491 kB (elbread=427 elab2=5918 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\GP\UART\UART\src\wave.asdb
+#  18:05, poniedzia쿮k, 27 pa웓ziernika 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/GP/UART/UART/src/wave.asdb'.
+wave 
+wave -noreg UART_CLK
+wave -noreg UART_RESET
+wave -noreg BAUD_SEL
+wave -noreg UART_RxD
+wave -noreg /test_uart_tb/UUT/UART_DATA
+wave -noreg /test_uart_tb/UUT/DATA_VALID
+wave -noreg UART_TxD
+# 
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\test_uart_TB_tim_cfg.vhd" 
+# # asim TIMING_FOR_test_uart  
+run
+# KERNEL: Warning: KERNEL_0291 Object "/test_uart_tb/UART_CLK" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/test_uart_tb/UART_RESET" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/test_uart_tb/BAUD_SEL" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/test_uart_tb/UART_RxD" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/test_uart_tb/UUT/UART_DATA" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/test_uart_tb/UUT/DATA_VALID" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/test_uart_tb/UART_TxD" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/GP/UART/UART/src/wave.asdb'.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 7342494382 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 7342494382 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 11588365466 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 11588365466 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 11588365466 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 11588365466 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+endsim
+# KERNEL: stopped at time: 4712607387593 ps
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testbench_for_test_uart testbench_for_test_uart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6491 kB (elbread=427 elab2=5918 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\GP\UART\UART\src\wave.asdb
+#  18:06, poniedzia쿮k, 27 pa웓ziernika 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/GP/UART/UART/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/GP/UART/UART/src/wave.asdb'.
+run
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 7342494382 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 7342494382 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 11588365466 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 11588365466 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 11588365466 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 11588365466 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+endsim
+# KERNEL: stopped at time: 13737080508747 ps
+# VSIM: Simulation has finished.
+SetActiveLib -work
+comp -include "$dsn\src\UART_util.vhd" 
+# Compile Package "UART_util"
+# Compile Package Body "UART_util"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+comp -include "$dsn\src\UART_TX.asf" 
+# Compile Entity "UART_TX"
+# Compile Architecture "UART_TX" of Entity "UART_TX"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\UART_RX.asf" 
+# Compile Entity "UART_RX"
+# Compile Architecture "UART_RX" of Entity "UART_RX"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\Test_UART.bde" 
+# Compile Entity "Test_UART"
+# Compile Architecture "Test_UART" of Entity "Test_UART"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+comp -include "$dsn\src\TestBench\test_uart_TB.vhd" 
+# Compile Entity "test_uart_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "test_uart_tb"
+# Compile Configuration "TESTBENCH_FOR_test_uart"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim TESTBENCH_FOR_test_uart 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6491 kB (elbread=427 elab2=5918 kernel=145 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\GP\UART\UART\src\wave.asdb
+#  18:09, poniedzia쿮k, 27 pa웓ziernika 2025
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/GP/UART/UART/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/GP/UART/UART/src/wave.asdb'.
+wave 
+wave -noreg UART_CLK
+wave -noreg UART_RESET
+wave -noreg BAUD_SEL
+wave -noreg UART_RxD
+wave -noreg /test_uart_tb/UUT/UART_DATA
+wave -noreg /test_uart_tb/UUT/DATA_VALID
+wave -noreg UART_TxD
+# 
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\test_uart_TB_tim_cfg.vhd" 
+# # asim TIMING_FOR_test_uart  
+run
+# VSIM: 7 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/GP/UART/UART/src/wave.asdb'.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 7342494382 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 7342494382 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 11588365466 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 11588365466 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# KERNEL: ERROR  : TextIO internal error: Could not read type "CHARACTER" from line.
+# KERNEL: Time: 11588365466 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+# EXECUTION:: WARNING: Code not recognized
+# EXECUTION:: Time: 11588365466 ps,  Iteration: 0,  Instance: /test_uart_tb,  Process: UART_TEST_RUN.
+endsim
+# KERNEL: stopped at time: 29218090987638 ps
+# VSIM: Simulation has finished.

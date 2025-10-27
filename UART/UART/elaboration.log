@@ -1,0 +1,47 @@
+Active-HDL 15.0.260.9131 2025-10-27 18:09:42
+
+Elaboration top modules:
+VHDL Configuration            testbench_for_test_uart
+
+
+--------------------------------------------------------------------------------------------------
+Entity       | Architecture    | Library | Info | Compiler Version          | Compilation Options
+--------------------------------------------------------------------------------------------------
+test_uart_tb | TB_ARCHITECTURE | UART    |      | 15.0.260.9131 (Windows64) | -O3
+Test_UART    | Test_UART       | UART    |      | 15.0.260.9131 (Windows64) | -O3
+UART_RX      | UART_RX         | UART    |      | 15.0.260.9131 (Windows64) | -O3
+UART_TX      | UART_TX         | UART    |      | 15.0.260.9131 (Windows64) | -O3
+--------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------
+VHDL Configuration             | Library | Info | Compiler Version          | Compilation Options
+--------------------------------------------------------------------------------------------------
+testbench_for_test_uart        | UART    |      | 15.0.260.9131 (Windows64) | -O3
+--------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------
+VHDL Package                   | Library | Info | Compiler Version          | Compilation Options
+--------------------------------------------------------------------------------------------------
+standard                       | std     |      |                           | <unavailable>
+TEXTIO                         | std     |      | 15.0.260.9131 (Windows64) |  -2019
+std_logic_1164                 | ieee    |      | 15.0.260.9131 (Windows64) |  -2008
+std_logic_arith                | ieee    |      | 15.0.260.9131 (Windows64) | <unavailable>
+STD_LOGIC_UNSIGNED             | ieee    |      | 15.0.260.9131 (Windows64) | <unavailable>
+UART_util                      | UART    |      | 15.0.260.9131 (Windows64) | -O3
+std_logic_textio               | ieee    |      | 15.0.260.9131 (Windows64) | <unavailable>
+STD_LOGIC_SIGNED               | ieee    |      | 15.0.260.9131 (Windows64) | <unavailable>
+--------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------
+Library                        | Comment
+--------------------------------------------------------------------------------------------------
+ieee                           | Standard IEEE packages library
+std                            | Standard VHDL library
+UART                           | None
+--------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim TESTBENCH_FOR_test_uart
+
+
+The performance of simulation is reduced. Version EDU Edition

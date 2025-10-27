@@ -1,0 +1,24 @@
+           0 us:   Wait for 1000 us
+        1000 us:   W 51 (at 19200 baud)
+ 2096.623298 us:   !!! OSTRZE¯ENIE: B£¥D PÊTLI ZWROTNEJ !!!
+             Wys³ano (oczekiwano): 51, Odebrano: D4
+ 2096.623298 us:   Wait for 1000 us
+ 3096.623298 us:   W 33 (at 19200 baud)
+ 4245.600472 us:   !!! OSTRZE¯ENIE: B£¥D PÊTLI ZWROTNEJ !!!
+             Wys³ano (oczekiwano): 33, Odebrano: E6
+ 4245.600472 us:   Wait for 1000 us
+ 5245.600472 us:   W 81 (at 19200 baud)
+ 6342.494382 us:   !!! OSTRZE¯ENIE: B£¥D PÊTLI ZWROTNEJ !!!
+             Wys³ano (oczekiwano): 81, Odebrano: E0
+ 6342.494382 us:   Wait for 1000 us
+ 7342.494382 us:   W AA (at 19200 baud)
+ 8491.471556 us:   !!! OSTRZE¯ENIE: B£¥D PÊTLI ZWROTNEJ !!!
+             Wys³ano (oczekiwano): AA, Odebrano: F5
+ 8491.471556 us:   Wait for 1000 us
+ 9491.471556 us:   W 55 (at 19200 baud)
+10588.365466 us:   !!! OSTRZE¯ENIE: B£¥D PÊTLI ZWROTNEJ !!!
+             Wys³ano (oczekiwano): 55, Odebrano: D5
+10588.365466 us:   Wait for 1000 us
+11588.365466 us:   B Ustawiono BAUD_RATE na 1200
+11588.365466 us:   Wait for 1000 us
+12588.365466 us:   W F0 (at 1200 baud)

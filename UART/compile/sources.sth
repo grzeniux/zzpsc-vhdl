@@ -1,0 +1,16 @@
+[Files List]
+C:/Aldec/Active-HDL-15-x64/vlib/std/src/standard.vhd=S
+C:/Aldec/Active-HDL-15-x64/vlib/std/src/textio.vhd=S
+C:/Aldec/Active-HDL-15-x64/vlib/ieee/src/std_logic_1164.vhdl=S
+C:/Aldec/Active-HDL-15-x64/vlib/ieee/src/std_logic_1164-body.vhdl=S
+C:/Aldec/Active-HDL-15-x64/vlib/ieee/src/std_logic_arith.vhdl=S
+C:/Aldec/Active-HDL-15-x64/vlib/ieee/src/unsigned_p.vhd=S
+C:/Aldec/Active-HDL-15-x64/vlib/ieee/src/unsigned_b.vhd=S
+C:/My_Designs/GP/UART/UART/src/UART_util.vhd=S
+C:/Aldec/Active-HDL-15-x64/vlib/ieee/src/std_logic_textio.vhdl=S
+C:/Aldec/Active-HDL-15-x64/vlib/ieee/src/signed_p.vhd=S
+C:/Aldec/Active-HDL-15-x64/vlib/ieee/src/signed_b.vhd=S
+C:/My_Designs/GP/UART/UART/compile/UART_TX.vhd=S
+C:/My_Designs/GP/UART/UART/compile/UART_RX.vhd=S
+C:/My_Designs/GP/UART/UART/compile/Test_UART.vhd=S
+C:/My_Designs/GP/UART/UART/src/TestBench/test_uart_TB.vhd=S

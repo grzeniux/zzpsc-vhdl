@@ -1,0 +1,8 @@
+[Version]
+Version=15.0
+[Designs]
+UART=UART.adf
+[Settings]
+Active=UART
+[Expand]
+uart=1

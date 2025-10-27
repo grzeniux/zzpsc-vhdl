@@ -1,0 +1,54 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=UART
+[Library]
+UART=.\UART\UART.lib
+[$LibMap$]
+UART=.
+Active_lib=ARTIX7
+xilinxun=ARTIX7
+UnlinkedDesignLibrary=ARTIX7
+DESIGNS=ARTIX7
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=Xilinx2019x ARTIX7
+fileopenfolder=D:\My_Designs\ZZPSC\_arch\UART_\src\TestBench
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=test_uart_tb|testbench_for_test_uart|1 uart_tx|UART_TX|0
+ShowHide=ShowTopLevel
+Selected=
+[Groups]
+TestBench=1
+[Files]
+/UART_util.vhd=-1
+/UART_RX.asf=-1
+/UART_TX.asf=-1
+/Test_UART.bde=-1
+TestBench/test_uart_TB.vhd=-1
+TestBench/test_uart_TB_runtest.do=-1
+TestBench/UART_code.txt=-1
+TestBench/UART_log.txt=-1
+[Files.Data]
+.\src\UART_util.vhd=VHDL Source Code
+.\src\UART_RX.asf=State Diagram
+.\src\UART_TX.asf=State Diagram
+.\src\Test_UART.bde=Block Diagram
+.\src\TestBench\test_uart_TB.vhd=VHDL Source Code
+.\src\TestBench\test_uart_TB_runtest.do=Macro
+.\src\TestBench\UART_code.txt=Text File
+.\src\TestBench\UART_log.txt=Text File
+[file_out:/UART_TX.asf]
+/..\compile\UART_TX.vhd=-1
+[file_out:/UART_RX.asf]
+/..\compile\UART_RX.vhd=-1
+[file_out:/Test_UART.bde]
+/..\compile\Test_UART.vhd=-1
